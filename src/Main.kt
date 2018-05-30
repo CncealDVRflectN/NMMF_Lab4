@@ -96,7 +96,7 @@ fun calcDirichletProblem(horizontalNodes: Array<Double>, verticalNodes: Array<Do
         }
     } while (calcNorm(prev, next) > accuracy)
 
-    return prev
+    return next
 }
 
 fun main(args: Array<String>) {
